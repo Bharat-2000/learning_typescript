@@ -1,10 +1,11 @@
 import './App.css';
-import {Greet} from "./components/Greet";
-import {Status} from './components/Status';
-import { Button } from './components/Button';
-import { Container } from './components/Container';
-import { LoggedIn } from './components/state/LoggedIn';
-import {User} from './components/state/User';
+// import {Greet} from "./components/Greet";
+// import {Status} from './components/Status';
+// import { Button } from './components/Button';
+// import { Container } from './components/Container';
+// import { LoggedIn } from './components/state/LoggedIn';
+// import {User} from './components/state/User';
+import { Counter } from './components/state/Counter';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       /> */}
       {/* <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
       {/* <LoggedIn /> */}
-      <User />
+      {/* <User /> */}
+      <Counter />
     </div>
   );
 }
