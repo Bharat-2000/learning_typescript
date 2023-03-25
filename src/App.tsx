@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Greet} from "./components/Greet";
+import {Status} from './components/Status';
+import { Button } from './components/Button';
+import { Container } from './components/Container';
+import { LoggedIn } from './components/state/LoggedIn';
+import {User} from './components/state/User';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet name="bharat" age={22}/> */}
+      {/* <Status status="success"/> */}
+      {/* <Button 
+        handleClick={(event, id) => {
+          console.log('Button clicked', event, id)
+        }}
+      /> */}
+      {/* <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
+      {/* <LoggedIn /> */}
+      <User />
     </div>
   );
 }
 
 export default App;
+ 
